@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData">
+    <serverData>
+      <paths name="pi@192.168.2.102:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/pycharm_project_789" local="$PROJECT_DIR$" web="/myPi" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
