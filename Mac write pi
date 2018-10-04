@@ -25,7 +25,7 @@ $ diskutil list
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:     FDisk_partition_scheme                        *15.9 GB    disk2
    1:                 DOS_FAT_32 Pi                      15.9 GB    disk2s1
-使用dd命令将系统镜像写入
+切换到你下载的raspbian系统镜像的文件夹下，使用dd命令将系统镜像写入
 PS /dev/disk2s1是分区，/dev/disk2是块设备，/dev/rdisk2是原始字符设备
 
 $ dd bs=4m if=pi.img of=/dev/rdisk2
